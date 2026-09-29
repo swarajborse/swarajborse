@@ -27,14 +27,27 @@
 
 ## 🚀 Featured Projects
 
-### 🏦 Banking Management System
-Production-ready banking application built using Spring Boot, React, JWT, MySQL.
+### 💬 ChatSync – C++ Multi-Client Chat Server
 
-### 👴 SahaSathi
-A platform that connects senior citizens (55+) with like-minded people to reduce loneliness and encourage meaningful social interactions.
+**C++, POSIX Sockets, Multithreading, Mutex**
 
-### ✅ Todo App
-Spring Boot + Thymeleaf + MySQL CRUD application.
+* Built a real-time multi-client LAN chat server using thread-per-client architecture and thread-safe client management.
+* Implemented TCP message framing and buffer parsing to handle partial/merged `recv()` data reliably.
+
+### 🚦 ThrottleX – Distributed API Rate Limiter
+
+**Java 17, Spring Boot, Redis, PostgreSQL, Lua, Docker**
+
+* Built a distributed Token Bucket rate limiter using atomic Redis Lua scripts, supporting **1,000+ concurrent requests**.
+* Improved throughput by **93%** and reduced average latency by **52%** through Redis-based bucket state management.
+
+### 🎥 VidFlow – Video Processing Queue
+
+**Java 21, Spring Boot, Kafka, PostgreSQL, FFmpeg, MinIO, Docker**
+
+* Built an event-driven video processing pipeline using Kafka and FFmpeg with asynchronous upload processing.
+* Implemented retries, DLQ, stale-job recovery, idempotency, and Prometheus/Grafana monitoring.
+
 
 📫 Reach Me <br>
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/swaraj-borse-23015a335?utm_source=share_via&utm_content=profile&utm_medium=member_android)
